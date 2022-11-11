@@ -58,9 +58,9 @@ export function Uploader(props: UploaderProps) {
 
         const md = new Metadata({
             ...meta,
-            name: "ALGO Devcon POAP",
-            unitName:"devcon",
-            description:"POAP Minted at DEVCON 2022",
+            name: "LaBitConf ALGO POAP",
+            unitName:"bitconf",
+            description:"POAP Minted at LABITCONF 2022",
             decimals: 0,
         }) 
         setMeta(md)
